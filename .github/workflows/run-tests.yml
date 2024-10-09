@@ -21,3 +21,5 @@ jobs:
       # имя выводится на Github при просмотре сборки
       - name: run tests
         run: make test # name и run относятся к одной задаче, поэтому дефис ставится только перед name
+      - name: Print Hello from Hexlet
+        uses: hexlet-components/hello-from-hexlet-action@release
